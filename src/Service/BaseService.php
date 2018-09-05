@@ -11,14 +11,14 @@ use QiQiuYun\SDK\HttpClient\Response;
 use QiQiuYun\SDK\Exception\ResponseException;
 use QiQiuYun\SDK;
 
-abstract class BaseService    
+abstract class BaseService
 {
     /**
      * QiQiuYun auth
      *
      * @var Auth
      */
-    protected $auth;    
+    protected $auth;
 
     /**
      * Service options
