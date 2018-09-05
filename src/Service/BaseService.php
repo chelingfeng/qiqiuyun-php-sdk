@@ -18,7 +18,7 @@ abstract class BaseService
      *
      * @var Auth
      */
-    protected $auth;
+    protected $auth;    
 
     /**
      * Service options
